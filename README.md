@@ -1,8 +1,6 @@
 # SVG Navbar
 
-<video controls autoplay>
-  <source src="./src/assets/navbar.mp4" type="video/mp4">
-</video>
+![Banner](https://i.ibb.co/0j98g97/navbar.gif)
 
 ## Installation
 
