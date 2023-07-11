@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.10.4"
+  }
+}
